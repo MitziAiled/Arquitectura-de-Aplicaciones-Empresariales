@@ -12,7 +12,7 @@ body{
 
 #rectangle{
     width:560px;
-    height:350px;
+    height:400px;
     background-color:#5D907D;
     border-radius: 50px ;
     margin-top: 140px;
@@ -27,7 +27,12 @@ label{
 }
 
 #crear_usuario{
-    margin-left: 130px;
+    margin-left: 110px;
+}
+
+#crear_institucion{
+    margin-left: 95px;
+    margin-top: 100px;
 }
 
 input{

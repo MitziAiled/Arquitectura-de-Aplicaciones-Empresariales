@@ -27,7 +27,7 @@
                     REGISTRATE.
                 </a>
             </label>
-            <label id="crear_usuario_institucion">
+            <label id="crear_institucion">
                 ¿ERES UNA INSTITUCIÓN NUEVA?
                 <a href="views/registro_institucion.php"><!--FALTA VERIFICAR QUE LA RUTA SEA CORRECTA YA QUE ESTA OPCION SE AGREGO-->
                     REGISTRATE.
