@@ -23,7 +23,7 @@
             </button>
             <label id="crear_usuario">
                 ¿ERES UN USUARIO NUEVO?
-                <a href="views/registro_usuario.php">
+                <a href="registro_usuario.php"><!--Verificar si esto es correcto ya que antes era "views/registro_usuario.php"-->
                     REGISTRATE.
                 </a>
             </label>

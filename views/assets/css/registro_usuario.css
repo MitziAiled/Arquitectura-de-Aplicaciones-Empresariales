@@ -5,10 +5,10 @@ body{
 
 #rectangle{
     width:600px;
-    height:400px;
+    height:500px;
     background-color:#5D907D;
     border-radius: 50px ;
-    margin-top: 200px;
+    margin-top: 130px;
     margin-left: 650px;
 }
 
@@ -27,9 +27,37 @@ label{
     margin-left: 130px;
 }
 
-input{
+
+.nomUs,.apellUs,.telUs,.dirUs{
     margin-left: 30px;
     width: 500px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.cpUs{
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.emailUs{
+    margin-left: 30px;
+    width: 360px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.Us,.passUs{
+    margin-left: 30px;
+    width: 230px;
     height: 30px;
     border-radius: 50px;
     position: relative;
@@ -56,7 +84,7 @@ input{
     border-radius: 50px;
     position: absolute; 
     left: 970px;
-    top: 355px;
+    top: 590px;
 }
 
 a{
