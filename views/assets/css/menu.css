@@ -6,7 +6,7 @@
 }
 
 #menu li button{
-   padding: 0rem 1.5rem 0rem 1.5rem;
+   padding: 0.5rem 2rem 0.5rem 2rem;
    color: #36362C;
    background-color:#8AAD9F;
    text-decoration: none;
@@ -30,16 +30,6 @@
    border-radius: 15px;
    font-size: 20px;
    margin: 0px 0px 0px 0px;
-}
-
-#menu li button {
-   padding: 0rem 1.5rem 0rem 1.5rem;
-   color: #36362C;
-   background-color:#8AAD9F;
-   text-decoration: none;
-   border-radius: 15px;
-   font-size: 20px;
-   margin-bottom: -16px;
 }
 
 ul{

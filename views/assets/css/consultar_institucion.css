@@ -1,18 +1,18 @@
 body{
-    background-image:url("../img/eliminar_mascota.jpg");
+    background-image:url("../img/consulta_institucion.jpg");
     background-size: 100% 100%;
 }
 
 table{
     border: 2px solid black;
     margin-top: 50px;
-    margin-left: 180px;
+    margin-left: 5px;
     font-family: Felix Titling;
-    font-size: small;
+    font-size: medium;
     background-color: white;
     border-spacing: 15px 15px;
 }
 
 a{
-    color:black;
+    color:white;
 }

@@ -1,9 +1,9 @@
 <html>
     <head>
-        <title>Puppy Rescue: Registro de Mascota</title>
-        <link href="../assets/css/bienvenida.css" rel="stylesheet" type="text/css">
-        <LINK href="../assets/css/menu.css" rel="stylesheet" type="text/css">
-		<script type="text/javascript">
+        <title>Puppy Rescue: Consulta de Callejeros</title>
+        <link href="../assets/css/consultar_callejero.css" rel="stylesheet" type="text/css">
+        <LINK href="../assets/css/menu.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript">
 			function confirmLogout() {
 				if(confirm('¿Deseas cerrar sesion?')) {
 					return true;
@@ -12,10 +12,11 @@
 					return false;
 				}
 			}
+
 		</script>
     </head>
     <body>
-        <div id="menu">
+    <div id="menu">
 			<ul class="nav">
                 <li>
                     <a href="">ADOPCIONES</a>
@@ -47,5 +48,29 @@
                 </li>
 			</ul>
 		</div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Calle</th>
+                    <th>Colonia</th>
+                    <th>Ciudad</th>
+                    <th>Estado</th>
+                    <th>Rasgos F&iacute;sicos</th>
+                    <th>Condici&oacute;n del canino</th>
+                </tr>
+            </thead>
+            <tbody>
+            <!--?php foreach ($this->caninos as $canino) { ?>
+                <tr>
+                  <td><php echo $canino->getID(); ?></td>  
+                  <td><php echo $canino->getCalle(); ?></td>
+                  <td><php echo $canino->getColonia(); ?></td>
+                  <td><php echo $canino->getRasgo(); ?></td>
+                  <td><php echo $canino->getCondicion(); ?></td>      
+                </tr>
+              <php } ?--> 
+            </tbody>
+        </table>
     </body>
 </html>
