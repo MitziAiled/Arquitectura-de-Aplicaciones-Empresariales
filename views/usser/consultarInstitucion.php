@@ -23,7 +23,7 @@
                 </li>
                 <li><a href="">CALLEJEROS</a>
                     <ul>
-						<li><form action="./consultaCallejero"> <button>Consultar</button></form></li>
+						<li><form action="./consultaCallejero"> <button id="btn_consultar">Consultar</button></form></li>
 						<li><form action="./consultaCallejero2"><button>Adoptar</button></form></li>
 					</ul>
                 </li>

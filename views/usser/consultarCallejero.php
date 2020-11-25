@@ -29,7 +29,7 @@
                 </li>
 				<li><a href="">INSTITUCI&Oacute;N</a>
                     <ul>
-                        <li><form action="./consultaInstitucion"><button>Consultar</button></form></li>
+                        <li><form action="./consultaInstitucion"><button id="btn_consultar">Consultar</button></form></li>
 					</ul>
                 </li>
                 <li><a href="">USUARIO</a>
@@ -46,7 +46,7 @@
                 </li>
 			</ul>
 		</div>
-        <table>
+        <table id="tabla_consultacallejero">
             <thead>
                 <tr>
                     <th>ID</th>

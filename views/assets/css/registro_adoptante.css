@@ -48,7 +48,19 @@ label{
     font-family: Felix Titling;
     border-radius: 50px;
     position: absolute; 
-    left: 350px;
+    left: 450px;
+    top: 500px;
+}
+
+#btn_modificar_estatus{
+    color:white;
+    background-color: #825534;
+    height: 30px;
+    width: 160px;
+    font-family: Felix Titling;
+    border-radius: 50px;
+    position: absolute; 
+    left: 200px;
     top: 500px;
 }
 

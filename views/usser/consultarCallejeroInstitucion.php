@@ -24,7 +24,7 @@
                 <li><a href="">CALLEJEROS</a>
                     <ul>
 						<li><form action="./registrarCallejero"><button>Registrar</button></form></li>
-						<li><form action="./consultaCallejero"> <button>Consultar</button></form></li>
+						<li><form action="./consultaCallejero"> <button id="btn_consultar">Consultar</button></form></li>
 					</ul>
                 </li>
 				<li><a href="">INSTITUCI&Oacute;N</a>

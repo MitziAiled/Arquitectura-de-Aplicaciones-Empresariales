@@ -24,7 +24,7 @@
                 <li><a href="">CALLEJEROS</a>
                     <ul>
 						<li><form action="./registrarCallejero"><button>Registrar</button></form></li>
-						<li><form action="./consultaCallejero"> <button>Consultar</button></form></li>
+						<li><form action="./consultaCallejero"> <button id="btn_consultar">Consultar</button></form></li>
 						<li><form action="./consultaCallejero2"><button>Adoptar</button></form></li>
 					</ul>
                 </li>
@@ -99,7 +99,8 @@
                         </td>
                     </tr>
                 </table>
-                <input id="enviar_formulario" type="submit" value="Enviar Datos"/>
+                <input id="btn_registrar_adopcion" type="submit" value="Enviar Datos"/>
+                <input id="btn_modificar_estatus" type="submit" value="Modificar Estatus"/>
             </form>
         </div>
     </body>
